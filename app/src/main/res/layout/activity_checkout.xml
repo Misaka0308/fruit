@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="160dp">
+
+    <!-- 输入优惠券代码 -->
+    <EditText
+        android:id="@+id/coupon_code_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入优惠券代码"
+        android:inputType="text"
+        android:padding="100dp"/>
+
+    <!-- 应用优惠券按钮 -->
+    <Button
+        android:id="@+id/apply_coupon_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="应用优惠券"
+        android:layout_marginTop="16dp"/>
+
+    <!-- 显示最终价格 -->
+    <TextView
+        android:id="@+id/final_price_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="最终价格: ¥100.00"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>

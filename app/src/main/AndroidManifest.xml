@@ -12,28 +12,33 @@
         android:roundIcon="@drawable/a1"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ui.activity.FruitYActivity"></activity>
+
+        <!-- MainActivity 添加了 <intent-filter> -->
+        <activity android:name=".ui.activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- 其他活动 -->
+        <activity android:name=".ui.activity.FruitYActivity" />
         <activity android:name=".ui.activity.FruitXActivity" />
         <activity android:name=".ui.activity.ManageActivity" />
         <activity android:name=".ui.activity.WxActivity" />
         <activity android:name=".ui.activity.OrderActivity" />
         <activity android:name=".ui.activity.JsActivity" />
-        <activity android:name=".ui.activity.OpeningActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <activity android:name=".ui.activity.OpeningActivity" />
+        <activity android:name=".ui.activity.CheckoutActivity" />
         <activity android:name=".ui.activity.LoginActivity" />
         <activity android:name=".ui.activity.RegisterActivity" />
-        <activity android:name=".ui.activity.MainActivity" />
         <activity android:name=".ui.activity.FruitDetailActivity" />
         <activity android:name=".ui.activity.PersonActivity" />
         <activity android:name=".ui.activity.PasswordActivity" />
         <activity android:name=".ui.activity.AddFruitActivity" />
         <activity android:name=".ui.activity.UserDetailActivity" />
         <activity android:name=".ui.activity.BrowseActivity" />
+
     </application>
 
 </manifest>
