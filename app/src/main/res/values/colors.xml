@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#4CAF50</color><!--主题色-->
-    <color name="colorPrimaryBlue">#4CAF50</color><!--主题色-->
-    <color name="colorPrimaryTint">#4CAF50</color><!--主题浅色-->
-    <color name="colorPrimaryDark">#4CAF50</color><!--主题深色-->
-    <color name="colorAccent">#4CAF50</color>
-    <color name="colorRed">#4CAF50</color>
-    <color name="colorBlack">#000000</color><!--黑色-->
-    <color name="colorWhite">#ffffff</color><!--白色-->
-    <color name="colorGrayDark">#BCB7B7</color><!--深灰色-->
+    <color name="colorPrimary">#2196F3</color><!--主题色 蓝色-->
+    <color name="colorPrimaryBlue">#2196F3</color><!--主题色 蓝色-->
+    <color name="colorPrimaryTint">#BBDEFB</color><!--主题浅色 浅蓝-->
+    <color name="colorPrimaryDark">#1976D2</color><!--主题深色 深蓝-->
+    <color name="colorAccent">#448AFF</color><!--强调色-->
+    <color name="colorRed">#448AFF</color><!--蓝色替代-->
+    <color name="colorBlack">#FFFFFF</color><!--黑色-->
+    <color name="colorWhite">#666666</color><!--白色-->
+    <color name="colorGrayDark">#666666</color><!--深灰色-->
     <color name="colorGray">#cccccc</color><!--灰色-->
-    <color name="colorGrayTint">#52CCCCCC</color><!--浅灰色-->
-    <color name="colorGrayTints">#2DCCCCCC</color><!--更浅的灰色-->
+    <color name="colorGrayTint">#520D0B0B</color><!--浅灰色-->
+    <color name="colorGrayTints">#2D000000</color><!--更浅的灰色-->
+    <color name="colorBackgroundGray">#E0E0E0</color><!--浅灰色背景-->
 </resources>

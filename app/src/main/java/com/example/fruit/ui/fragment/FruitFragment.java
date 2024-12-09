@@ -51,8 +51,8 @@ public class FruitFragment extends Fragment {
     private EditText etQuery;//搜索内容
     private ImageView ivSearch;//搜索图标
     private FloatingActionButton btnAdd;
-    private String[] state = {"0","1","2","3","4","5","6"};
-    private String[] title = {"果类", "柑类","桃类" ,"瓜类","蕉类","葡萄类","果脯"};
+    private String[] state = {"0","1","2","3","4","5","6","7","8","9"};
+    private String[] title = {"果类", "柑类","桃类" ,"瓜类","蕉类","葡萄类","枣类","果汁","果干","果脯"};
     private String typeId = "0";
     private List<Fruit> mfruit;
 
